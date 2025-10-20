@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bean Boutique</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This is to make the page responsive -->
+  <link href="css/css.css" rel="stylesheet" type="text/css">  <!-- This is to link the page to the CSS -->
+</head>
+<body>
+  <div id="container">  <!-- This is the main container for the entire page -->
+    
+    <header> <!-- Header Section -->
+      <div id="hlogo"> <!-- Header logo Section -->
+        <img src="pics/logo.png" alt="Bean Boutique Logo"> <!-- Link to the Header logo location -->
+      </div>
+      <div id="caption"> <!-- Caption Section with the name Bean Boutique -->
+        <span id="capsize"><strong>Bean Boutique</strong></span>
+      </div>
+      <div id="search"> <!-- Search top of the page -->
+        <input type="search" id="txtsearch" placeholder="Search...">
+        <input type="submit" value="Search">
+      </div>
+    </header>
+
+    <div class="clearfloat"></div>
+    <div id="navigation"> <!-- Navigation Menu Section -->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/coffeeselection.html">Coffee Selection</a></li>
+        <li><a href="pages/BrewingEquipment.html">Brewing Equipment</a></li>
+        <li><a href="pages/Events.html">Events and Workshops</a></li>
+        <li><a href="pages/Cart.html">Shopping Cart</a></li>
+        <li><a href="pages/OffersandSpecials.html">Special Offers and Subscriptions</a></li>
+      </ul>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div class="slideshow-container"> <!-- Slideshow Section -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="pics/coffeefield.jpg" alt="Coffee Field">
+        <div class="text">Coffee fields</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pics/roastedcoffeebeans.jpg" alt="Roasted Coffee Beans">
+        <div class="text">Coffee beans</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="pics/firesidecoffeebrewing.jpg" alt="Fireside Coffee Brewing">
+        <div class="text">Fireside coffee</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <!-- Slideshow Buttons Next/Previous -->
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center"> <!-- Dots for the slide navigation -->
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div id="main-container"> <!-- Main Content Section -->
+      <div id="maincontent">
+        <h2>At Bean Boutique, we believe that every cup tells a story.</h2>
+        <p>Nestled in the heart of Port of Spain, located opposite the St. Ann's Cascade Taxi Stand, our coffee shop is more than just a place to grab your daily caffeine fix. It’s a sanctuary for coffee lovers, a hub for creativity, and a warm embrace for anyone who steps through our doors.</p>
+        <p>Our journey begins with ethically sourced beans from the finest farms around the globe, handpicked for their rich flavors and bold aromas. From farm to cup, we take pride in every step of the process.</p>
+        <h2><strong>Are you a new customer to Bean Boutique?</strong> <button id="myBtn">Click Me!!</button></h2>
+      </div>
+      <div id="mainpicsection"> <!-- Main pic section -->
+        <img src="pics/cofferpouring.png" id="CP" alt="Coffee Pouring">
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div id="secondary-container"> <!-- Secondary Content Section--> 
+      <div id="secpicsection"> <!-- Secondary pic Section -->
+        <img src="pics/coffeebeans.png" id="CB" alt="Coffee Beans">
+      </div>
+      <div id="secondarycontent"> <!-- Secondary Content -->
+        <strong>Crafted with Passion, Served with Love</strong>
+        <p>Our beans are sourced from the finest coffee farms around the world, ensuring rich flavors and aromatic perfection in every cup. From bold espressos to creamy lattes, each beverage is crafted by our expert baristas with precision and care.</p>
+        <strong>A Space to Savor and Socialize</strong>
+        <p>With warm lighting, stylish decor, and a relaxed atmosphere, Bean Boutique is the perfect spot to sip, savor, and connect. Whether you're meeting friends, catching up on work, or simply enjoying a quiet moment, our inviting ambiance makes every visit special.</p>
+        <strong>More Than Just Coffee</strong>
+        <p>Pair your favorite coffee with our delectable pastries, artisanal sandwiches, and wholesome treats, all made fresh daily. We also offer dairy-free, gluten-free, and vegan options to suit every preference.</p>
+        <strong>Come Visit Us!</strong>
+        <p>We’re excited to welcome you to Bean Boutique—where every cup tells a story. Stop by today and indulge in the art of exceptional coffee.</p>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div id="map-container"> <!-- Map Section -->
+      <div class="google-map"> <!-- Google Map plugin -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.068719967311!2d-61.51090017128605!3d10.65176947214381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3607fc452ee48f%3A0x8531e76b0ce6c5da!2sSt.%20Ann%E2%80%99s%20%2F%20Cascade%20Taxi%20Stand!5e0!3m2!1sen!2stt!4v1738716871110!5m2!1sen!2stt" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <div class="clearfloat"></div>
+
+    <div id="socialmedia"> <!-- Social Media Section -->
+      <p><strong>Social Media:</strong> Interact with us</p>
+    </div>
+    <div id="socialmedialogos">
+      <a href="http://www.facebook.com"><img src="pics/facebook.png" id="facebookpic" alt="Facebook"></a>
+      <a href="http://www.x.com"><img src="pics/X.png" id="Xpic" alt="X"></a>
+      <a href="http://www.instagram.com"><img src="pics/instagram.png" id="instagrampic" alt="Instagram"></a>
+    </div>
+    <div class="clearfloat"></div>
+
+    <!-- Footer Section -->
+    <footer>
+      Last Date updated: 4th February 2025. Created by Ryan Walters. All Rights Reserved &copy; 2025.
+    </footer>
+  </div>
+
+  <!-- Modal Section -->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+            <h2>Welcome to Bean Boutique!</h2>
+			<p>Enjoy <strong>60% off</strong> your first purchase when you sign up for our newsletter.</p>
+		<form>
+			<input type="email" placeholder="Enter your email" required>
+			<button type="submit">Sign Up</button>
+		</form>
+    </div>
+  </div>
+
+  <!-- Embedded JavaScript -->
+  <script>
+    // Slideshow functionality
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      const slides = document.getElementsByClassName("mySlides");
+      const dots = document.getElementsByClassName("dot");
+
+      if (n > slides.length) slideIndex = 1;
+      if (n < 1) slideIndex = slides.length;
+
+      for (i = 0; i < slides.length; i++) slides[i].style.display = "none";
+      for (i = 0; i < dots.length; i++) dots[i].className = dots[i].className.replace(" active", "");
+
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+
+    setInterval(() => plusSlides(1), 5000);
+
+    // Modal functionality
+    const modal = document.getElementById("myModal");
+    const btn = document.getElementById("myBtn");
+    const span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = () => modal.style.display = "block";
+    span.onclick = () => modal.style.display = "none";
+    window.onclick = (event) => {
+      if (event.target == modal) modal.style.display = "none";
+    };
+  </script>
+</body>
+</html>
